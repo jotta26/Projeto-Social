@@ -39,9 +39,25 @@ section#telefone {
 
 iframe#tela {
     position: relative;
-    top: 50px;
+    top: 79px;
     left: 21px;
     width: 265px;
-    height: 498px;
+    height: 469px;
+
+}
+
+section#redes-sociais  img{ 
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(48, 55, 61);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
     
+    border: 2px solid rgba(255, 255, 255, 0.479);
+    transform: translate(-5px, -5px);
+    box-shadow: 3px 3px 10px rgba(5, 5, 5, 0.849);
+    transition: transform 1s, border 1s; 
 }
